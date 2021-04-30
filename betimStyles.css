@@ -1,0 +1,131 @@
+header {
+    background-color: #0b3954;  
+    text-align: center; 
+    color:  #d9dbf1;
+    padding: 20px;  
+    font-size: 150%;
+    
+}  
+header h1{
+    color: #d9dbf1; 
+    font-size: 150%; 
+    text-align: center;  
+    transition: color, 2s, ease, 2s;   
+    animation: titulo 4s ease-out infinite;  
+
+}  
+@keyframes titulo { 
+    0%{
+        color: #0d0630; 
+    } 
+    50%{
+        color: #d9dbf1  ; 
+    } 
+     
+    75%{ 
+        color: black;   
+
+    } 
+    100%{
+        color: #2d3047; 
+    }
+
+    
+}
+header h1:hover{ 
+    cursor: pointer; 
+    background-color: #587291;
+    transform: scale(1.2,1.2);   
+    animation-play-state: paused; 
+}
+nav ul{
+    display: flex; 
+    padding: 0; 
+    justify-content: space-around; 
+    box-sizing: border-box; 
+    list-style-type: none; 
+    width: 100%; 
+    flex-direction: row; 
+
+}  
+nav ul li a { 
+    text-decoration: none; 
+    color:black ;
+    background-color: #f9c80e;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+
+
+} 
+nav ul li a:hover {  
+    cursor: pointer;  
+    border-bottom: 2px soloid black; 
+    color: black;
+ 
+}
+body{ 
+    margin: 0%;
+    background-color: #ced3dc; 
+} 
+h1{
+    text-align: justify; 
+    color: #0b3954; 
+    font-size: 40px;  
+}
+h3{
+      color: black;  
+      font-size: 32px ; 
+}  
+.corpo{ 
+    margin: 20px;  
+    padding: 8px ;
+
+} 
+
+section{
+    color: black; 
+    font-size: 20px; 
+    text-align: justify;  
+} 
+footer{
+    background-color: #0b3954; 
+    text-align: center; 
+    color: #d9dbf1;  
+    padding: 20px; 
+    font-size: 150%; 
+} 
+iframe{
+    width: 200px; 
+    height: 200px;   
+    
+}   
+.video1{
+    float: right; 
+    width: 450px;  
+    height: 250px ;  
+    display: block;  
+    border: solid 6px #587291; 
+
+}
+.imgbetim{ 
+    justify-content: right; 
+    display: flex; 
+    width: 200px; 
+    height: 25%; 
+    margin: 2em ; 
+
+} 
+.linkhist:link{ 
+    color: blue ;  
+
+} 
+.linkhist:visited{
+    color: purple;  
+} 
+#imgfiat{
+    justify-content: right; 
+    display: block;  
+    width: 350px;  
+    height: 50%; 
+    float: inline-end;
+    border: solid 6px #587291;   
+} 
